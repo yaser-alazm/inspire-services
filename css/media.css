@@ -1,0 +1,152 @@
+/* XS Screens **/
+@media (min-width:0) and (max-width:767px) {
+  .navbar-inverse .navbar-nav > li > a
+  {
+    padding-top:10px;
+    padding-bottom:10px
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form
+  {
+    border:none;
+  }
+  .navbar .navbar-brand > img
+  {
+    max-width: 250px;
+    padding-left: 10px
+  }
+  .navbar .navbar-brand
+  {
+    margin-left: 10px ;
+  }
+  .navbar .navbar-toggle
+  {
+    margin-top:15px;
+  }
+  .navbar .navbar-inverse .navbar-nav > .open > a,
+  .navbar-inverse .navbar-nav > .open > a:hover,
+  .navbar-inverse .navbar-nav > .open > a:focus
+  {
+    background-color: #FDB913;
+  }
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse
+  {
+    max-height:400px;
+  }
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus
+  {
+    background-color:#FDB913;
+  }
+  .navbar-inverse .navbar-nav > .open > a,
+  .navbar-inverse .navbar-nav > .open > a:hover,
+  .navbar-inverse .navbar-nav > .open > a:focus
+  {
+    background-color:#FDB913;
+  }
+
+
+  .subscribe .form-control
+  {
+    margin: 0 auto;
+    width:400px
+  }
+  .subscribe .btn{
+    position: relative;
+    margin: 0 auto;
+    margin-top:10px
+  }
+  .our_skills .carousel
+  {
+    margin-top:50px
+  }
+
+  .social-bar ul
+  {
+
+  }
+    .social-bar li
+    {
+      margin-right: 30px;
+      /*margin-top:10px;*/
+      margin-bottom:10px;
+      font-size:0.6em
+    }
+    .footer .copyright
+    {
+      min-height: 80px;
+      padding-top:10px;
+      padding-bottom:37px;
+      line-height:1em
+    }
+    #scroll-top {
+      width:40px;
+      width:40px;
+      bottom:4px
+    }
+}
+
+
+/* SM Screens **/
+@media (min-width:768px) and (max-width:991px) {
+  .navbar-brand > img
+ {
+   max-width: 300px;
+ }
+ .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+ {
+   max-width:400px;
+   float:right;
+   margin-right:-50px
+ }
+ .navbar .navbar-nav > li > a
+ {
+   padding:15px 20px;
+ }
+  .our_skills .carousel
+  {
+    margin-top:50px
+  }
+  .social-bar ul
+  {
+    margin: 0 auto;
+  }
+  .social-bar li
+  {
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px
+  }
+  .footer .copyright
+  {
+    min-height: 100px;
+    padding-top:13px;
+    padding-bottom:37px;
+    line-height:1em
+  }
+
+
+}
+
+/* MD Screens **/
+@media (min-width:992px) and (max-width:1199px) {
+   .navbar-brand > img
+  {
+    max-width:250px;
+  }
+  .social-sidebar {
+    min-width:50px !important
+  }
+  .social-sidebar .fa-3x {
+    font-size:2em
+  }
+}
+
+/* LG Screens **/
+@media (min-width:1200px) {
+   .navbar-brand > img
+  {
+    max-width:250px;
+  }
+}
