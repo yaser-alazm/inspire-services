@@ -1,0 +1,22 @@
+{
+  "name": "inspire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaser-alazem/inspire-services.git"
+  },
+  "author": "Yaser AlAzm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaser-alazem/inspire-services/issues"
+  },
+  "homepage": "https://yaser-alazem.github.io/inspire-services",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
