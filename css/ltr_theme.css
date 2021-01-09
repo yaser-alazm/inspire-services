@@ -1518,8 +1518,10 @@ nav.shrink .navbar-toggle {
     top: 34px;
   }
   .social-bar ul {
-    display: block;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
     margin: 10px auto;
   }
   .social-bar li {
@@ -1719,8 +1721,10 @@ nav.shrink .navbar-toggle {
     top: 34px;
   }
   .social-bar ul {
-    display: block;
-    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 60%; */
     margin: 10px auto;
   }
   .social-bar li {
@@ -1983,7 +1987,7 @@ nav.shrink .navbar-toggle {
     font-size: 12px;
   }
   .topBar .topbar-row .social .img-svg {
-    width: 55%;
+    width: 100%;
   }
 }
 
